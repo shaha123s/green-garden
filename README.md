@@ -1,92 +1,83 @@
-# موقع شركة تصميم الحدائق والعناية بالخضرة
+# 🌿 Green Garden — Landscaping & Garden Care Website
 
-موقع ويب احترافي لشركة متخصصة في تصميم الحدائق والعناية بالخضرة.
+A responsive, Arabic (RTL) brand website for a landscaping and garden-care company, built with plain **HTML, CSS, and JavaScript** — no frameworks and no build step.
 
-## المميزات
+> **Live demo:** _add your link here_
 
-- ✅ تصميم متجاوب (Responsive) يعمل على جميع الأجهزة
-- ✅ واجهة مستخدم عصرية وجذابة
-- ✅ ألوان طبيعية وهادئة تعكس طبيعة العمل
-- ✅ خطوط واضحة وسهلة القراءة (خط Cairo)
-- ✅ تنقل سلس بين الأقسام
+<!-- Add screenshots here:
+![Desktop view](docs/desktop.png)
+![Mobile view](docs/mobile.png)
+-->
 
+## ✨ Features
 
-## الأقسام
+- **Responsive design** that adapts to phones, tablets, and desktops
+- **Modern, clean interface** with a calm natural palette that reflects the business
+- **Arabic-first typography** using the Cairo font for clear, readable text
+- **Smooth navigation** between sections
+- **Easy theming** through CSS variables
 
-### 1. الصفحة الرئيسية
-- شعار الشركة
-- صورة خلفية جذابة
-- مقدمة عن الشركة
-- زر للتواصل
+## 📄 Sections
 
-### 2. عن الشركة
-- نبذة عن تاريخ الشركة وخبرتها
-- إحصائيات (سنوات الخبرة، المشاريع، رضا العملاء)
-- فريق العمل مع صور مختصرة
+| Section | What it contains |
+| --- | --- |
+| **Home** | Company logo, hero background image, short introduction, and a contact button |
+| **About** | Company background and experience, key statistics (years of experience, projects, client satisfaction), and the team |
+| **Services** | Garden design, planting, garden maintenance, irrigation systems, plant consulting, and space landscaping |
+| **Contact** | Contact form (name, email, message) and contact details (phone, email, address, working hours) |
 
-### 3. خدماتنا
-- تصميم الحدائق
-- زراعة النباتات
-- صيانة الحدائق
-- أنظمة الري
-- استشارات نباتية
-- تنسيق المساحات
+## 🛠️ Tech Stack
 
-### 4. اتصل بنا
-- نموذج اتصال (اسم، بريد إلكتروني، رسالة)
-- معلومات الاتصال (هاتف، بريد إلكتروني، عنوان، ساعات العمل)
+- HTML5
+- CSS3 (custom properties, responsive layout)
+- JavaScript (vanilla)
+- Google Fonts — Cairo
 
-## الملفات
+## 🚀 Run Locally
 
-- `index.html` - الملف الرئيسي للموقع
-- `styles.css` - ملف التنسيقات والتصميم
-- `script.js` - ملف JavaScript للتفاعلية
+No installation or server needed:
 
-## كيفية الاستخدام
+1. Clone or download the repository.
+2. Open `index.html` in any modern browser.
 
-1. افتح ملف `index.html` في متصفح الويب
-2. الموقع جاهز للاستخدام مباشرة
+You can also use the **Live Server** extension in VS Code for automatic reloading.
 
-## التخصيص
+## 📁 Project Structure
 
-### تغيير الألوان
-يمكنك تعديل الألوان في ملف `styles.css` من خلال متغيرات CSS:
+```
+├── index.html    # Page structure and content
+├── styles.css    # Styling and design system
+└── script.js     # Interactivity
+```
+
+## 🎨 Customization
+
+### Colors
+Edit the CSS variables at the top of `styles.css`:
 
 ```css
 :root {
-    --primary-color: #2d5016;      /* اللون الأساسي */
-    --secondary-color: #4a7c2a;    /* اللون الثانوي */
-    --accent-color: #6b9e3e;       /* لون التمييز */
-    --light-green: #a8d5a3;        /* الأخضر الفاتح */
-    --very-light-green: #e8f5e6;   /* الأخضر الفاتح جداً */
+  --primary-color: #2d5016;        /* Primary */
+  --secondary-color: #4a7c2a;      /* Secondary */
+  --accent-color: #6b9e3e;         /* Accent */
+  --light-green: #a8d5a3;          /* Light green */
+  --very-light-green: #e8f5e6;     /* Very light green */
 }
 ```
 
-### تغيير المحتوى
-- عدّل النصوص في ملف `index.html`
-- غيّر معلومات الاتصال في قسم "اتصل بنا"
-- أضف صور حقيقية للفريق والخدمات
+### Content and images
+- Edit text and contact details directly in `index.html`.
+- To use real photos, create an `images/` folder, add your images, and update the image paths in `index.html`.
 
-### إضافة صور
-يمكنك إضافة صور حقيقية عن طريق:
-1. إنشاء مجلد `images` في نفس المجلد
-2. إضافة الصور إليه
-3. تحديث مسارات الصور في `index.html`
+## ⚠️ Notes
 
-## المتطلبات
+- The contact form currently shows a confirmation message only. To actually receive submissions, connect it to a backend or a form service.
+- Emoji icons can be replaced with real images or an icon library such as Font Awesome.
 
-- متصفح ويب حديث (Chrome, Firefox, Safari, Edge)
-- لا يحتاج إلى خادم ويب - يعمل مباشرة من الملفات
+## 🌐 Browser Support
 
-## ملاحظات
+Any modern browser: Chrome, Firefox, Safari, and Edge.
 
-- النموذج الحالي يعرض رسالة تأكيد فقط. لإرسال البيانات فعلياً، ستحتاج إلى إضافة خادم خلفي (Backend).
-- يمكنك استبدال الأيقونات (Emojis) بصور حقيقية أو أيقونات من مكتبات مثل Font Awesome.
+## 📄 License
 
-## الدعم
-
-لأي استفسارات أو مساعدة، يرجى التواصل معنا.
-
----
-
-© 2024 شركة حدائق الخضرة. جميع الحقوق محفوظة.
+© Shahad Brighish. All rights reserved.
